@@ -19,7 +19,7 @@
   }
   
   #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fec503;
+    color: #21B4A8;
   }
   
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -32,7 +32,7 @@
   }
   
   #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    color:#21B4A8;
   }
   
   @media (min-width: 992px) {

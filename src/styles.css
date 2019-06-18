@@ -9,15 +9,15 @@ body {
   }
   
   a {
-    color: #fed136;
+    color: #23B5A9;
   }
   
   a:hover {
-    color: #fec503;
+    color:#23B5A9;
   }
   
   .text-primary {
-    color: #fed136 !important;
+    color: #23B5A9 !important;
   }
   
   h1,
@@ -88,8 +88,8 @@ body {
   }
   
   .btn-primary {
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: #23B5A9;
+    border-color: #23B5A9;
   }
   
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {

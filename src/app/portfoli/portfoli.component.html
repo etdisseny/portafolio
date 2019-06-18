@@ -9,13 +9,13 @@
     </div>
     <div class="row">
       <div class="col-md-4 col-sm-6 portfolio-item" *ngFor="let datos of portfoli">
-        <a class="portfolio-link" data-toggle="modal" href={{datos.modal}}>
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{datos.identify}}">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src={{datos.foto}} alt={{datos.name}}>
+          <img class="img-fluid" src="../assets/0{{datos.identify}}-thumbnail.jpg" alt={{datos.name}}>
         </a>
         <div class="portfolio-caption">
           <h4>{{datos.name}}</h4>
@@ -26,3 +26,5 @@
     </div>
   </div>
 </section>
+
+

@@ -28,6 +28,9 @@ header.masthead {
     margin-bottom: 25px;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
+  .btn-primary{
+    background-color: #FFB527 !important;
+  }
   
   @media (min-width: 768px) {
     header.masthead .intro-text {

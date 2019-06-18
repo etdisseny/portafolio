@@ -14,12 +14,12 @@ export class PortfoliComponent implements OnInit {
   constructor() {
     this.title= "Aquestes són algunes de les meves feines";
     this.portfoli=[
-      new Portfoli('Cartell Concurs','Ilustració','../assets/01-thumbnail.jpg','#portfolioModal1'),
-      new Portfoli('Flier Promoció','Disseny Gràfic','../assets/02-thumbnail.jpg','#portfolioModal2'),
-      new Portfoli('Logotip','Identitat','../assets/03-thumbnail.jpg','#portfolioModal3'),
-      new Portfoli('Branding Estadi','Branding','../assets/04-thumbnail.jpg','#portfolioModal4'),
-      new Portfoli('Web','Front End','../assets/05-thumbnail.jpg','#portfolioModal5'),
-      new Portfoli('Serie Twipsy','Vídeo','../assets/06-thumbnail.jpg','#portfolioModal6')
+      new Portfoli('Cartell Concurs','Ilustració',1),
+      new Portfoli('Flier Promoció','Disseny Gràfic',2),
+      new Portfoli('Logotip','Identitat',3),
+      new Portfoli('Branding Estadi','Branding',4),
+      new Portfoli('Web','Front End',5),
+      new Portfoli('Serie Twipsy','Vídeo',6)
     ];
    }
 
