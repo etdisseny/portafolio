@@ -2,3 +2,13 @@
     margin: 5px 0;
     text-transform: none;
   }
+.fa-circle{
+  position: relative;
+  color: #2EB3A8;
+}
+.fa-stack img{
+  position: absolute;
+  top:12%;
+  left: 12%;
+  width: 100px;
+}
